@@ -8,7 +8,7 @@ body {
     background-position: center center;
 }
 .navbar{
-    position: absolute;
+    position: fixed;
     top: 0;
     left:0;
     background-color: #CCCCCC;
@@ -25,13 +25,14 @@ body {
     list-style-type: none;
     padding-left:10px;
     margin:0;
+    border-right: 1em solid #118AC5;
+    transition-property: background-color color;
+    transition-duration: 0.5s;
 }
 .liens li:hover {
-    text-align: center;
-    background-color: #3b61b4;
-    list-style-type: none;
-    padding-left:10px;
-    margin:0;
+    /*color:#FFFFFF;*/
+    /* background-color: #118AC5; */
+    border-right: 2em solid #118AC5 /*#DDDDDD*/;
 }
 .navbar a:link {
     text-decoration: None;
@@ -40,9 +41,6 @@ body {
 .navbar a:visited {
     text-decoration: None;
     color:#000000;
-}
-.navbar a:hover {
-    color:#FFFFFF;
 }
 table.tableau {
     border: thin solid #000000;
@@ -59,17 +57,22 @@ table.tableau th {
 }
 h1 {
     text-align: center;
-    color: #3b61b4;
+    color: #118AC5;
 }
-h2 {
-    text-align: left;
-    color: #BBBBBB;
+.center {
+    text-align: center;
 }
-p {
-    color: #000000;
+footer{
+    position:static;
+    bottom:0;
+    width:90%;
+    padding-top:25%;
+    height:25;
+
 }
-.draw-down {
-    position: absolute;
-    bottom: 0;
-    left: 0;
+body, html{height:100%;}
+
+.bottom {
+    position: fixed;
+/*    bottom: -1em;*/
 }
