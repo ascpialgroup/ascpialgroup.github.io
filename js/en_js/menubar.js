@@ -5,7 +5,7 @@ toReplace = '<a href="simpletrack.html">' +
     '<li>Members</li>' +
     '</a>' +
     '<a href="https://github.com/ascpialgroup/">' +
-    '<li>ASCPIAL Group on GitHub</li>' +
+    '<li>ASCPIAL Group on<br>GitHub</li>' +
     '</a>';
 
 menubarElem = document.getElementById('menubar');
