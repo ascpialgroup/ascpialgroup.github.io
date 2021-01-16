@@ -1,5 +1,5 @@
 body {
-    padding-left: 220px;
+    padding-left: 270px;
     font-family: Trebuchet MS, sans-serif;
     background-color: #EEEEEE;
     background-image: None;
@@ -12,7 +12,7 @@ body {
     top: 0;
     left:0;
     background-color: #CCCCCC;
-    width:220px;
+    width:270px;
     height:100%;
 }
 .liens {
